@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 public class nachoele {
     public static void main(String[] args) {
@@ -8,10 +9,12 @@ public class nachoele {
         n1=sc.nextInt();
         System.out.println("ingrese el numero dos");
         n2=sc.nextInt();
-        System.out.println("la suma de los dos numeros es "+ (n1+n2));
+        System.out.println(suma(n1, n2));
 
 
     }
     
-
+  public static int suma (int n1 , int n2){
+    return n1+n2;
+  }
 }
